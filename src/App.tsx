@@ -21,12 +21,12 @@ function App() {
         href="https://unpkg.com/@blueprintjs/core@5/lib/css/blueprint.css"
         rel="stylesheet"
       />
-      <PolotnoContainer style={{ height: "100vh", width: "100vw" }}>
+      <PolotnoContainer style={{ width: "100vw", height: "100vh" }}>
         <SidePanelWrap>
           <SidePanel store={store} />
         </SidePanelWrap>
         <WorkspaceWrap>
-          <Toolbar downloadButtonEnabled store={store} />
+          <Toolbar store={store} downloadButtonEnabled />
           <Workspace store={store} />
           <ZoomButtons store={store} />
         </WorkspaceWrap>
