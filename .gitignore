@@ -23,4 +23,4 @@ yarn-debug.log*
 yarn-error.log*
 
 # Local template exploration
-**/template.json
+**/template.local.json
